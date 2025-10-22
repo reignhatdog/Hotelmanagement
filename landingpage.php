@@ -4,7 +4,7 @@ require_once 'backend/db.php';
 require_once 'backend/auth.php';
 
 if (!isGuestLoggedIn()) {
-    // Show PUBLIC version (no guest data)
+ 
     ?>
     <!DOCTYPE html>
     <html lang="en">
@@ -223,14 +223,14 @@ $guest = getCurrentGuest();
             <h2>About GINHAWA Hotel</h2>
         </div>
 
-        <!-- About content (side-by-side) -->
+     
         <div class="about-content">
-            <!-- Image -->
+         
             <div class="about-image">
                 <img src="images/HCIhotel.jpg" alt="GINHAWA Hotel Exterior" class="about-photo">
             </div>
 
-            <!-- Text -->
+        
             <div class="about-text">
                 <h3>Welcome to GINHAWA</h3>
                 <p>
@@ -257,4 +257,5 @@ $guest = getCurrentGuest();
         </footer>
     </div>
 </body>
+
 </html>

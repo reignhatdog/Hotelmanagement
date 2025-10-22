@@ -130,7 +130,7 @@ body {
     flex-wrap: wrap;
 }
 
-/* ===================== SECTIONS ===================== */
+
 .section {
     padding: 80px 0;
 }
@@ -161,7 +161,7 @@ body {
     color: #cccccc;
 }
 
-/* ===================== ROOMS ===================== */
+
 .rooms-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -203,7 +203,6 @@ body {
     color: #000000;
 }
 
-/* ===================== BUTTONS ===================== */
 .btn {
     display: inline-flex;
     align-items: center;
@@ -250,7 +249,7 @@ body {
     transform: translateY(-2px);
 }
 
-/* ===================== ABOUT SECTION ===================== */
+
 .about-content {
     display: flex;
     align-items: center;
@@ -294,7 +293,7 @@ body {
     font-size: 1.1rem;
 }
 
-/* ===================== FOOTER ===================== */
+
 .footer {
     background-color: #000000;
     color: #FFD700;
@@ -302,7 +301,7 @@ body {
     text-align: center;
 }
 
-/* ===================== RESPONSIVE DESIGN ===================== */
+/* = responsive = */
 @media (max-width: 768px) {
     .hero-content {
         text-align: center;
@@ -373,3 +372,4 @@ body {
         justify-content: center;
     }
 }
+
